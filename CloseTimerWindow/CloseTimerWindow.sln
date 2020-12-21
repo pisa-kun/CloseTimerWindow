@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloseTimerWindow", "CloseTimerWindow.csproj", "{2ABDCA5C-0BF0-4481-96BD-1C30A4B47B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABDCA5C-0BF0-4481-96BD-1C30A4B47B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABDCA5C-0BF0-4481-96BD-1C30A4B47B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABDCA5C-0BF0-4481-96BD-1C30A4B47B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABDCA5C-0BF0-4481-96BD-1C30A4B47B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3D293E5-2C80-483D-B095-49E8983B712E}
+	EndGlobalSection
+EndGlobal

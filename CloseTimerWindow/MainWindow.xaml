@@ -1,0 +1,22 @@
+﻿<Window x:Class="CloseTimerWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CloseTimerWindow"
+        mc:Ignorable="d"
+        Title="MainWindowSample" Height="350" Width="350">
+    <Window.Resources>
+        <SolidColorBrush x:Key="WineRed" Color="#b33e5c"/>
+    </Window.Resources>
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Foreground="Black" Text="右下にwindowが表示され、5秒後に自動で閉じます" />
+            <Button Width="200" Height="50" Background="{StaticResource WineRed}" Foreground="White" 
+                   x:Name="top" Content="Button Aが押されました" Click="top_Click" />
+            <Border Height="30" Background="White"/>
+            <Button Width="200" Height="50" Background="{StaticResource WineRed}" Foreground="White" 
+                   x:Name="bottom" Content="Button Bが押されました" Click="bottom_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
